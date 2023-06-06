@@ -25,4 +25,11 @@ public class TestMoto {
         Assertions.assertEquals(3, moto.getMarcha());
     }
 
+    @Test
+    public void test_al_bajar_de_marcha_se_engrana_una_mas_baja() {
+        Tmoto moto = new Tmoto();
+        moto.setMarcha(5);
+        moto.BajaMarcha(1);
+        Assertions.assertEquals(4, moto.getMarcha());
+    }
 }

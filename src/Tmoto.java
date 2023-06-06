@@ -48,4 +48,8 @@ public class Tmoto {
     public void SubeMarcha(int i) {
         marcha += i;
     }
+
+    public void BajaMarcha(int i) {
+        marcha -= i;
+    }
 }
