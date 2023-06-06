@@ -40,4 +40,8 @@ public class Tmoto {
     public void acelerar(int i) {
         velActual += i;
     }
+
+    public void frenar(int i) {
+        velActual -= i;
+    }
 }
