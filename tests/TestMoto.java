@@ -16,4 +16,13 @@ public class TestMoto {
         moto.frenar(30);
         Assertions.assertEquals(10, moto.getVelActual());
     }
+
+    @Test
+    public void test_al_subir_de_marcha_se_engrana_una_mas_alta(){
+        Tmoto moto = new Tmoto();
+        moto.setMarcha(2);
+        moto.SubeMarcha(1);
+        Assertions.assertEquals(3, moto.getMarcha());
+    }
+
 }

@@ -44,4 +44,8 @@ public class Tmoto {
     public void frenar(int i) {
         velActual -= i;
     }
+
+    public void SubeMarcha(int i) {
+        marcha += i;
+    }
 }
